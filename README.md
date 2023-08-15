@@ -1,5 +1,9 @@
 # Programa de Gerenciamento de Conta Bancária 🏦💸
 
+
+
+![GitHub top language](https://img.shields.io/github/languages/top/JoaoSBarbosa/bank-account-management)
+
 Este programa em Java simula um sistema de gerenciamento de contas bancárias, permitindo aos usuários criar uma conta, fazer depósitos e sacar fundos. O programa aplica regras específicas para garantir um gerenciamento preciso das contas.
 
 ## Como Usar
