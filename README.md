@@ -41,7 +41,7 @@ Este programa em Java simula um sistema de gerenciamento de contas bancárias, p
 ## Exemplo de Uso
 
 ```
-yamlCopy codeInforme o número da conta: 8532
+Informe o número da conta: 8532
 Informe o titular da conta: Alex Green
 Haverá um depósito inicial (s/n)? s
 Informe o valor do depósito inicial: 500.00
@@ -59,6 +59,10 @@ Informe o valor de saque: 300.00
 Dados da conta atualizados:
 Conta 8532, Titular: Alex Green, Saldo: R$ 395.00
 ```
+
+![Exemplo de Página de Registro](./src/img/print_teste.png)
+
+
 
 ## Contribuições
 
