@@ -35,14 +35,16 @@ public class Account {
 		accountBalance += depositValue;
 	}
 	public void withdrawFunds(double depositValue) {
-		accountBalance -= depositValue - 5;
+		accountBalance -= (depositValue + 5);
 	}
 	
 	public String toString() {
 		return 
 				"Account "
 				+account
-				+" value: "
-				+accountBalance;
+				+", Holder: "
+				+holder
+				+", Balance: $ "
+				+String.format("%.2f", accountBalance);
 	}
 }
