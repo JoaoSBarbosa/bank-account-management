@@ -30,14 +30,18 @@ public class Main {
 		}
 		
 		
+		System.out.println();
 		System.out.println("Account data: \n"+ac);
+		
 		System.out.println();
 		System.out.print("Enter a deposit value: ");
 		ac.addDeposit(sc.nextDouble());
 		System.out.println("Updated account data: \n"+ac);
+		
 		System.out.println();
 		System.out.print("Enter a withdraw value: ");
 		ac.withdrawFunds(sc.nextDouble());
+		System.out.println();
 		System.out.println("Updated account data: \n"+ac);
 		sc.close();
 
